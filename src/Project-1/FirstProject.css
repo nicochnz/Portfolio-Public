@@ -14,71 +14,72 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: calc(var(--spacing-reference) * 1);
   background: #588e85;
 }
 
 .project-1 h2 {
-  font-size: 3rem;
+  font-size: calc(var(--font-size-reference) * 3);
   color: var(--couleur-titre);
 }
 
 .project-1 p {
-  font-size: 1.5rem;
+  font-size: calc(var(--font-size-reference) * 1.5);
   color: var(--couleur-titre);
   text-decoration: underline;
 }
 
 .project-1 a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: calc(var(--font-size-reference) * 1.2);
   color: var(--couleur-texte);
   transition: all 0.3s ease-in-out;
   border: none;
-  border-radius: 25px;
+  border-radius: calc(var(--spacing-reference) * 1.25);
   background-color: var(--couleur-titre);
-  padding: 1rem 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: calc(var(--spacing-reference) * 1) calc(var(--spacing-reference) * 2);
+  box-shadow: var(--box-shadow);
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: calc(var(--spacing-reference) * 1);
   cursor: pointer;
 }
 
 .project-1 a:hover {
   background-color: #034161;
   transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--box-shadow);
 }
 
 .project-1 a:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(0, 115, 180, 0.6);
+  box-shadow: var(--box-shadow);
 }
 
 .project-1 span {
-  font-size: 1.2rem;
+  font-size: calc(var(--font-size-reference) * 1.2);
   border: solid var(--couleur-titre) 2px;
-  border-radius: 5px;
-  padding: 0.5rem;
+  border-radius: calc(var(--spacing-reference) * 0.5);
+  padding: calc(var(--spacing-reference) * 0.5);
   text-transform: uppercase;
   color: var(--couleur-titre);
   width: fit-content;
   max-width: 90%;
-  margin: 0.5rem;
+  margin: calc(var(--spacing-reference) * 0.5);
 }
 
 .project-1 img {
   width: 90%;
-  max-width: 25rem;
+  max-width: calc(var(--spacing-reference) * 25);
   height: auto;
-  margin: 0.5rem 0;
-  border-radius: 8px;
+  margin: calc(var(--spacing-reference) * 0.5) 0;
+  border-radius: calc(var(--spacing-reference) * 0.5);
 }
 
 .project-1 .description {
   color: var(--couleur-texte);
   text-align: left;
   text-decoration: none;
+  font-size: calc(var(--font-size-reference) * 1.2);
 }
 .description h3 {
   color: var(--couleur-titre);
@@ -87,42 +88,42 @@
 @media (min-width: 992px) {
   .section {
     flex-direction: row;
-    gap: 2rem;
+    gap: calc(var(--spacing-reference) * 2);
   }
 
   .project-1 {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    padding: 2rem;
+    padding: calc(var(--spacing-reference) * 2);
   }
 
   .project-1 h2 {
-    font-size: 4rem;
+    font-size: calc(var(--font-size-reference) * 4);
   }
 
   .project-1 p {
-    font-size: 1.75rem;
+    font-size: calc(var(--font-size-reference) * 1.75);
   }
 
   .project-1 img {
     width: 50%;
-    max-width: 30rem;
-    margin: 1rem;
+    max-width: calc(var(--spacing-reference) * 30);
+    margin: calc(var(--spacing-reference) * 1);
   }
 
   .project-1 span {
-    font-size: 1.5rem;
-    margin: 0.5rem 1rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
+    margin: calc(var(--spacing-reference) * 0.5) calc(var(--spacing-reference) * 1);
   }
 
   .project-1 a {
-    font-size: 1.5rem;
-    padding: 1rem 2.5rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
+    padding: calc(var(--spacing-reference) * 1) calc(var(--spacing-reference) * 2.5);
   }
 
   .project-1 .description {
-    font-size: 1.5rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
     max-width: 50%;
     margin: 0 auto;
     text-align: left;

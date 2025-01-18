@@ -3,26 +3,26 @@
   background-color: bisque;
 }
 .RandomButton {
-  height: 8rem;
-  width: 8rem;
-  font-size: 1.25rem;
+  height: calc(var(--spacing-reference)*8);
+  width: calc(var(--spacing-reference)*8);
+  font-size: var(--font-size-reference);
   cursor: pointer;
   border: solid black 3px;
   border-radius: 50%;
   box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
-  color: white;
+  color: var(--couleur-texte);
   background-color: rgba(3, 67, 91, 0.853);
   transition: 0.2s;
 }
 .MovableButton {
-  padding: 10px 20px;
-  font-size: 1.25rem;
-  height: 6rem;
-  width: 14rem;
+  padding: calc(var(--spacing-reference) * 1) calc(var(--spacing-reference) * 2);
+  font-size: calc(var(--font-size-reference) * 1.5);
+  height: calc(var(--spacing-reference) * 6);
+  width: calc(var(--spacing-reference) * 18);
   cursor: pointer;
   border: solid black 3px;
   box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
   border-radius: 15px;
   transition: 0.2s;
-  color: white;
+  color: var(--couleur-texte);
 }
