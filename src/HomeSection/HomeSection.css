@@ -14,33 +14,33 @@
 }
 .ProfilPicture {
   height: auto;
-  width: 20rem;
+  width: calc(var(--spacing-reference) * 20);
 }
 h1 {
-  font-size: 3rem;
-  color: #012030;
+  font-size: 4rem;
+  color: var(--couleur-titre);
 }
 
 .presentation {
-  font-size: 1.5rem;
+  font-size: var(--font-size-reference);
   text-transform: uppercase;
 }
 
 span {
   font-size: 1.2rem;
-  border: solid #012030 2px;
-  border-radius: 5px;
-  padding: 0.5rem;
+  border: solid var(--couleur-titre) 2px;
+  border-radius: calc(var(--spacing-reference) * 0.5);
+  padding: calc(var(--spacing-reference) * 0.5);
   text-transform: uppercase;
   color: var(--couleur-titre);
   width: auto;
-  margin: 0.5rem;
+  margin: calc(var(--spacing-reference) * 0.5);
   display: inline-block;
   max-width: 100%;
   box-sizing: border-box;
 }
 .informations {
-  font-size: 1.5rem;
+  font-size: calc(var(--font-size-reference) * 1.5);
 }
 .informations a {
   text-decoration: none;
@@ -54,27 +54,27 @@ span {
 @media (min-width: 992px) {
   .section {
     flex-wrap: nowrap;
-    gap: 2rem;
+    gap: calc(var(--spacing-reference) * 2);
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: calc(var(--font-size-reference) * 2);
   }
 
   .presentation {
-    font-size: 2.5rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
   }
 
   span {
-    font-size: 1.5rem;
-    padding: 0.75rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
+    padding: calc(var(--spacing-reference) * 0.5);
   }
 
   .informations {
-    font-size: 2rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
   }
 
   .informations a {
-    font-size: 2rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
   }
 }

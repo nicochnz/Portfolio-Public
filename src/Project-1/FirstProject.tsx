@@ -4,8 +4,8 @@ export default function FirstProject() {
   return (
     <div className="section project-1">
       <h2>Bordeaux Quizz</h2>
-      <img src="src/assets/Projet1(1).png" alt="img1" />
-      <img src="src/assets/Projet1(2).png" alt="img2" />
+      <img src="images/Projet1(1).png" alt="img1" />
+      <img src="images/Projet1(2).png" alt="img2" />
       <p>First project</p>
       <p className="description">
         <h3>Project Description :</h3>

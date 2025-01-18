@@ -4,7 +4,7 @@ export default function HomeSection() {
   return (
     <div className="section home">
       <h1>Chiche Nicolas</h1>
-      <img className="ProfilPicture" src="src/assets/Nico.png" alt="PhotoProfil" />
+      <img className="ProfilPicture" src="images/Nico.png" alt="PhotoProfil" />
       <p className="presentation">Hi, I'm a french developer.</p>
       <p>
         <span>HTML</span>

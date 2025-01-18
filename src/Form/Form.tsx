@@ -62,7 +62,7 @@ export default function ContactForm() {
       </form>
 
       <a target="_blank" href="https://github.com/nicochnz" rel="noreferrer">
-        <img className="icons" src="src/assets/github.png" alt="Github" />
+        <img className="icons" src="images/github.png" alt="Github" />
       </a>
 
       <a
@@ -70,7 +70,7 @@ export default function ContactForm() {
         href="https://www.linkedin.com/in/nicolas-chiche-79903b2b0"
         rel="noreferrer"
       >
-        <img className="icons" src="src/assets/linkedin.png" alt="LinkedIn" />
+        <img className="icons" src="images/linkedin.png" alt="LinkedIn" />
       </a>
     </div>
   );

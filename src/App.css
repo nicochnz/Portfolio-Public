@@ -1,6 +1,10 @@
 * {
   --couleur-titre: #012030;
   --couleur-texte: #f1f1f1;
+  --spacing-reference: 1rem;
+  --font-size-reference: 1.25rem;
+  --box-shadow: 1px 1px 1px 1px black;
+
   font-family: "Crimson Text", serif;
 }
 body,
@@ -14,41 +18,41 @@ html {
 
 .contact {
   background: #e74c3c;
-  color: #fff;
+  color: var(--couleur-texte);
 }
 .fp-watermark {
   display: none !important;
 }
 #fp-nav ul li a span {
-  background: #f1f1f1;
-  padding: 6px;
+  background: var(--couleur-texte);
+  padding: calc(var(--spacing-reference) * 0.5);
   border: 2px solid black;
-  box-shadow: 1px 1px 1px 1px black;
+  box-shadow: var(--box-shadow);
 }
 #fp-nav ul li {
-  padding: 2px;
+  padding: var(--spacing-reference);
 }
 #fp-nav ul li .fp-tooltip.fp-right {
   color: transparent;
 }
 @media (min-width: 992px) {
   #fp-nav ul li a span {
-    background: #f1f1f1;
-    padding: 8px;
+    background: var(--couleur-texte);
+    padding: calc(var(--spacing-reference) * 0.5);
     border: 2px solid black;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: var(--box-shadow);
   }
   #fp-nav ul li {
-    padding: 3px;
+    padding: calc(var(--spacing-reference) * 0.5);
   }
   #fp-nav ul li .fp-tooltip.fp-right {
-    top: 3px;
-    font-size: 1.25rem;
-    padding-right: 10px;
+    top: calc(var(--spacing-reference) * 0.5);
+    font-size: var(--font-size-reference);
+    padding-right: calc(var(--spacing-reference) * 0.5);
     -webkit-text-stroke: 2px black;
-    letter-spacing: 3px;
+    letter-spacing: 0.5rem;
   }
   #fp-nav ul li:nth-child(5) .fp-tooltip.fp-right {
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px var(--couleur-texte);
   }
 }
