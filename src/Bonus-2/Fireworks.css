@@ -1,0 +1,51 @@
+.firework {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: radial-gradient(circle, #1a1a1a, #000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#launchButton {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: tomato;
+  height: 6rem;
+  width: 14rem;
+  cursor: pointer;
+  border: solid black 3px;
+  box-shadow: rgb(82, 82, 82) 1px 1px 1px 1px;
+  border-radius: 15px;
+  z-index: 100;
+  color: var(--couleur-texte);
+  font-weight: bold;
+  transition: 0.3s transform ease;
+}
+
+#launchButton:active {
+  transform: scale(0.95);
+}
+
+#launchButton:hover {
+  background-color: #963e3e;
+}
+
+.projectile {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.burst {
+  position: absolute;
+  width: 1rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  pointer-events: none;
+}

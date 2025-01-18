@@ -1,0 +1,27 @@
+.section {
+  background-color: bisque;
+}
+.RandomButton {
+  height: 8rem;
+  width: 8rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border: solid black 3px;
+  border-radius: 50%;
+  box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
+  color: white;
+  background-color: rgba(3, 67, 91, 0.853);
+  transition: 0.2s;
+}
+.MovableButton {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  height: 6rem;
+  width: 14rem;
+  cursor: pointer;
+  border: solid black 3px;
+  box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
+  border-radius: 15px;
+  transition: 0.2s;
+  color: white;
+}
