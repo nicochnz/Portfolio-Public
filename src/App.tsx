@@ -1,12 +1,11 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import React from "react";
 import "./App.css";
-import RandomButton from "./Bonus-1/Button";
-import Firework from "./Bonus-2/Fireworks";
 import ContactForm from "./Form/Form";
 import HomeSection from "./HomeSection/HomeSection";
 import FirstProject from "./Project-1/FirstProject";
 import SecondProject from "./Project-2/SecondProject";
+import Fireworks from "./Bonus-2/Fireworks";
 export default function App() {
   return (
     <ReactFullpage
@@ -28,8 +27,7 @@ export default function App() {
           <HomeSection />
           <FirstProject />
           <SecondProject />
-          <RandomButton />
-          <Firework />
+          <Fireworks />
           <ContactForm />
         </div>
       )}

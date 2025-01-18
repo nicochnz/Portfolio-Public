@@ -15,13 +15,13 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: var(--spacing-reference);
   background: #df8e8e;
   width: 100%;
 }
 
 .project-2 h2 {
-  font-size: 3rem;
+  font-size: calc(var(--font-size-reference) * 3);
   color: var(--couleur-titre);
 }
 
@@ -30,21 +30,21 @@
 }
 
 .project-2 p {
-  font-size: 1.5rem;
+  font-size: calc(var(--font-size-reference) * 1.5);
   color: var(--couleur-titre);
   text-decoration: underline;
 }
 
 .project-2 span {
-  font-size: 1.2rem;
+  font-size: calc(var(--font-size-reference) * 1.2);
   border: solid #012030 2px;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: calc(var(--spacing-reference) * 0.5);
   text-transform: uppercase;
   color: var(--couleur-titre);
   width: fit-content;
   max-width: 90%;
-  margin: 0.5rem;
+  margin: calc(var(--spacing-reference) * 0.5);
 }
 
 .project-2 .description {
@@ -65,19 +65,19 @@
   }
 
   .project-2 h2 {
-    font-size: 4rem;
+    font-size: calc(var(--font-size-reference) * 4);
   }
 
   .project-2 p {
-    font-size: 1.75rem;
+    font-size: calc(var(--font-size-reference) * 1.75);
   }
 
   .project-2 span {
-    font-size: 1.5rem;
-    margin: 1rem 1rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
+    margin: calc(var(--spacing-reference) * 1) calc(var(--spacing-reference) * 1);
   }
   .project-2 .description {
-    font-size: 1.5rem;
+    font-size: calc(var(--font-size-reference) * 1.5);
     max-width: 50%;
     margin: 0 auto;
     text-align: left;
