@@ -1,5 +1,6 @@
 import "./SecondProject.css";
 import React from "react";
+import "../App.css";
 export default function SecondProject() {
   return (
     <div className="section project-2">
